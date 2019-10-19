@@ -11,5 +11,6 @@
         android:layout_width="395dp"
         android:layout_height="715dp"
         tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp" />
+        tools:layout_editor_absoluteY="8dp"
+        tools:listitem="@layout/list_pegawai_item" />
 </androidx.constraintlayout.widget.ConstraintLayout>
