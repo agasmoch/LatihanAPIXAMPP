@@ -16,6 +16,11 @@ import java.util.ArrayList;
 public class PegawaiAdapter extends RecyclerView.Adapter<PegawaiAdapter.ViewHolder>  {
     private Context mContext;
     private ArrayList<Pegawai>daftarPegawai;
+    private View.OnClickListener listener;
+
+    public PegawaiAdapter(View.OnClickListener listener) {
+        this.listener = listener;
+    }
 
     public void setDaftarPegawai(ArrayList<Pegawai> daftarPegawai) {
         this.daftarPegawai = daftarPegawai;
